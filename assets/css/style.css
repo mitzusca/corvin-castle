@@ -23,6 +23,29 @@ h1 {
     height:50px;
     padding-top: 5px;
 }
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 1px;    
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    font-size: 120%;
+}
+.active {
+    font-size: 120%;
+}
 /* main image */
 #main-outer {
     height: 500px;
