@@ -23,4 +23,27 @@ h1 {
     height:50px;
     padding-top: 5px;
 }
+/* main image */
+#main-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/main.jpg') no-repeat center center;
+    background-size: 100%;
+     /* animates zoom effect on loading page  */
+     animation-name: main-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+}
+/* creates the level of zoom for main image  */
+@keyframes main-zoom {
+    from{transform: scale(1);
+    }
+    to{transform: scale(1.5);
 
+    }
+}
