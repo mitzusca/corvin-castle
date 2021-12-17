@@ -8,3 +8,19 @@ body {
     font-family: 'Lora', serif;
     font-weight: 300;
 }
+/* heading and logo */
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3A2626;
+}
+#logo {
+    float: left;
+    font-size: 250%;
+    height: 5%;
+}
+#logo-raven {
+    float: top;
+    height: 75px;
+    padding-left: 150px;
+}
