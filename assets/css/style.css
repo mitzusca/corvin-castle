@@ -9,7 +9,7 @@ body {
     font-weight: 300;
 }
 /* heading and logo */
-h1 {
+h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3A2626;
@@ -48,12 +48,12 @@ h1 {
 }
 /* main image */
 #main-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
 #main-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/main.jpg') no-repeat center center;
     background-size: 100%;
@@ -70,3 +70,67 @@ h1 {
 
     }
 }
+/* Reasons to visit the Castle */
+#reasons {
+    height: 600px;
+}
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 120%;
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+.right-about-heading h2 {
+    text-align: right;
+}
+.right-about-heading p {
+    text-align: right;
+} 
+hr {
+    border-top: 1px solid #3A2626;
+}
+/* Center image to reasons section */
+#image-cover-bg {
+    background: url('../images/corvin-castle.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 35%;
+    background-size: 175%;
+ } 
+#image-container {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(46, 34, 34);
+    border-width: 1px;
+    border-radius: 35%;
+ }
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+ 
