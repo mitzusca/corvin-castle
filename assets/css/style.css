@@ -15,6 +15,9 @@ h1, h2 {
     letter-spacing: 2px;
     color: #3A2626;
 }
+p {
+    color: #832b2b;
+}
 #logo {
     float: left;
     font-size: 250%;
@@ -225,4 +228,37 @@ hr {
 .about ul {
     list-style: square;
     text-align: left;
+}
+/* openings time and prices on home page */
+#entry div {
+    color: #832b2b;
+    background-color: rgba(58, 38, 38,1);
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
