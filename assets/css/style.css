@@ -145,4 +145,49 @@ hr {
       width: 100%;
 
   } 
- 
+ /* Form */
+ .form-section {
+    clear: left;
+    background: url('../images/corvin-castle-mid19th.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form {
+    margin: 150px 10% 5% 10%;
+    color: #3A2626;
+    background-color:rgba(241, 228, 228, 0.6);
+    max-width: 400px;
+    float: left;
+    left: 10%;
+    padding: 30px;
+}
+.signup-form > h2 {
+    color: #3A2626;
+    margin-bottom: 20px;
+}
+.text-input {
+    background: transparent;
+    color: #3A2626;
+    width: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #3A2626;
+    border-radius: 2px;
+}
+.text-input:hover {
+    border: 3px solid #3A2626;
+}
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3A2626;
+    color: #fafafa;
+    display: block;
+}
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #3A2626;
+}
