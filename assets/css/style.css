@@ -41,10 +41,10 @@ h1, h2 {
     color: inherit;
 }
 #menu a:hover {
-    font-size: 120%;
+    text-decoration: underline;
 }
 .active {
-    font-size: 120%;
+    font-size: 150%;
 }
 /* main image */
 #main-outer {
