@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: rgba(247, 245, 235, 0.61);
 }
 body {
     font-family: 'Lora', serif;
@@ -239,23 +238,36 @@ hr {
     list-style: square;
     text-align: left;
 }
-    /* Footer */
+    /* Footer */    
 #entry div {
     color: #832b2b;
-    background-color: rgba(58, 38, 38,1);
+    background-color: rgba(148, 54, 54, 0.6);
     height: 120px;
     float: left;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid  rgb(245, 245, 245);
     box-sizing: border-box;
+}
+#entry {
+    background-image: url("../images/hunedoara-city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 .footer {
     width: 40%;
 }
 .footer-center {
     width: 20%;
-    background-color: whitesmoke;
+}
+.footer h2 {
+    color: rgb(245, 222, 179);
+}
+.footer p {
+    color: rgb(245, 222, 179);
 }
 /* Social network buttons */
 .social-networks{
@@ -270,6 +282,8 @@ hr {
 .social-networks i{
     font-size: 200%;
     margin: 0;
-    padding: 0;
-    color: #3a3a3a;
+    padding: 5px;
+    color: rgb(245, 222, 179);
 }
+
+
