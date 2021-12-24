@@ -239,11 +239,10 @@ hr {
     list-style: square;
     text-align: left;
 }
-/* openings time and contact on home page */
+    /* Footer */
 #entry div {
     color: #832b2b;
     background-color: rgba(58, 38, 38,1);
-    width: 50%;
     height: 120px;
     float: left;
     padding: 10px;
@@ -251,15 +250,17 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
-/* Footer */
-
-footer{
-    height: 150px;
+.footer {
+    width: 40%;
 }
-
+.footer-center {
+    width: 20%;
+    background-color: whitesmoke;
+}
+/* Social network buttons */
 .social-networks{
+    padding-top: 10px;
     text-align: center;
-
 }
 
 .social-networks li{
@@ -267,8 +268,8 @@ footer{
 }
 
 .social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
     color: #3a3a3a;
 }
