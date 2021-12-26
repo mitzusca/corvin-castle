@@ -110,11 +110,13 @@ p {
 }
 #left-about {
     padding-top: 30px;
+    padding-left: 5%;
     width: 40%;
     float: left;
 }
 #right-about {
     padding-top: 30px;
+    padding-right: 5%;
     width: 40%;
     float: right;
 }
@@ -401,4 +403,109 @@ strong {
 #tickets a {
     text-decoration: none;
     color: #fafafa;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #reasons{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    .video-container{
+        clear: both;
+        float: left;
+        position: relative;
+    }
+
+    #entry div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+    #entry div > p {
+        text-align: center;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #reasons{
+        width:90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    #gallery{
+        column-count: 2;
+    }
+    .video-container video {
+        width: 80%;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+   
+    .video-container video {
+        width: 70%;
+    }
+}
+/* For verry-small screens sizes from 450px wide and down */
+@media screen and (max-width: 450px){
+    
+    .video-container {
+        height: 200px;
+        width: 350px;
+        position: relative;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    .video-container video {
+        width: 100%;
+    }
+    #gallery{
+        column-count: 1;
+    }
+
 }
