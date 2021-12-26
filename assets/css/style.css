@@ -167,19 +167,24 @@ hr {
       width: 100%;
 
   } 
- /* Form */
+ /* Form and contact details*/
  .form-section {
     clear: left;
     background: url('../images/corvin-castle-mid19th.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
+    
 }
 .signup-form {
-    margin: 20% 30%;
+    padding-left: 10%;
+    padding-top: 10%;
     color: #3A2626;
-    background-color:rgba(241, 228, 228, 0.6);
+    background-color:rgba(241, 228, 228, 0.65);
     width: 40%;
+    margin: 0;
+    position: absolute;
+    float: left;
 }
 .signup-form > h2 {
     color: #3A2626;
@@ -209,6 +214,22 @@ hr {
 .submit-button:hover {
     background-color: #fafafa;
     color: #3A2626;
+}
+#contact-details {
+    float: right;
+    padding-top: 10%;
+    padding-right: 10%;
+    color: #3A2626;
+    background-color:rgba(241, 228, 228, 0.65);
+    width: 40%;
+    position: relative;
+}
+h4 {
+    padding-left: 10%;
+}
+#tickets {
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 /* map from main page */
 .mapouter {
@@ -341,5 +362,43 @@ strong {
     padding: 5px;
     color: rgb(245, 222, 179);
 }
-
-
+/* Buy tickets style */
+.buy {
+    float: left;
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3A2626;
+    display: block;
+}
+.buy a {
+    text-decoration: none;
+    color: #fafafa;
+}
+.buy :hover {
+    background-color: #fafafa;
+    color: #3A2626;
+}
+.buy a :hover {
+    color: #3A2626;
+}
+#tickets {
+    margin: 20%;
+    border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3A2626;
+    display: block;
+}
+#tickets :hover {
+    background-color: #fafafa;
+    color: #3A2626;
+}
+#tickets a {
+    text-decoration: none;
+    color: #fafafa;
+}
