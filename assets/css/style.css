@@ -446,6 +446,12 @@ strong {
     #tickets {
         margin: 15%;
     }
+    #cover-text {
+        font-size: 150%;
+        width: 450px;
+        height: 100px;
+        right: 300px;
+    }
 }
 /* For large screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
@@ -466,6 +472,9 @@ strong {
     }
     #contact-details {
         width: 25%;
+    }
+    #cover-text {
+        right: 200px;       
     }
 }
 /* For large to medium screens sizes from 1200px wide and down */
@@ -516,6 +525,12 @@ strong {
     }
     #contact-details {
         width: 30%;
+    }
+    #cover-text {
+        right: 80px;
+        font-size: 90%;    
+        width: 280px;
+        height: 60px;   
     }
 }
 
@@ -610,11 +625,11 @@ strong {
         column-count: 1;
     }
     #cover-text {
-        font-size: 50%;
-        bottom: 600px;
-        right: 1px;
+        font-size: 60%;
         width: 150px;
         height: 40px;
+        top: 40px;
+        left: 180px;
     }
     #rectangle-cover-bg {
         background-size: 100%;
@@ -656,11 +671,9 @@ strong {
     }
     #cover-text {
         font-size: 6px;
-        bottom: 200px;
-        right: 2px;
         padding: 0;
         width: 115px;
-        height: 60px;
+        height: 30px;
     }
     .video-container video {
         width: 250px;
