@@ -264,11 +264,9 @@ h4 {
     text-align: center;
     padding-top: 2%;
 }
-
 strong {
     padding-left: 5%;
 }
-
 #who-center {
     margin: 20px 0;
     text-align: center;
@@ -280,7 +278,7 @@ strong {
     padding-top: 2%;
 }
 
-
+/* images from about page */
 #castle-map {
     width: 50%;
     background-size: 50%;
