@@ -260,13 +260,11 @@ h4 {
 .about-center-side ul > li {
     padding: 0 5%;
 }
-.legends h2  {
+.legends h2, .legends p  {
     text-align: center;
     padding-top: 2%;
 }
-.legend h3, p {
-    text-align: left;
-}
+
 strong {
     padding-left: 5%;
 }
@@ -283,30 +281,22 @@ strong {
 }
 
 
-#rectangle-cover-bg {
-    background: url("/assets/images/castle-map.webp") no-repeat center center;
-    height: 500px;
-    width:inherit;
+#castle-map {
+    width: 50%;
     background-size: 50%;
-    border-radius: 5%;
-    position: inherit;
-
+    padding-left: 25%;
 }
 #turkish {
     padding-top: 3%;
 }
 #turkish img {
-    width: fit-content;
     height: 200px;
-    position: center;
     float: right;
     padding-left: 1%;
     padding-right: 5%;    
 }
 #raven img {
-    width: fit-content;
     height: 150px;
-    position: center;
     float: left;
     padding-left: 5%;
     padding-right: 1%;
@@ -404,9 +394,6 @@ strong {
 /* Media queries */
 /* For extra-large to large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px){
-    #rectangle-cover-bg {
-        height: 735px;
-    }
     #gallery {
         column-count: 5;
     }
@@ -434,9 +421,6 @@ strong {
 }
 /* For large screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
-    #rectangle-cover-bg {
-        height: 450px;
-    }
     #gallery {
         column-count: 4;
     }
@@ -570,9 +554,6 @@ strong {
         top: 40px;
         left: 180px;
     }
-    #rectangle-cover-bg {
-        background-size: 100%;
-    }
     .signup-form {
         width: 40%;
         left: 0%;
@@ -640,8 +621,5 @@ strong {
     #raven img {
         height: 115px;
         padding: 2%;
-    }
-    #rectangle-cover-bg {
-        height: 190px;
     }
 }
