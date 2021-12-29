@@ -3,7 +3,7 @@
 
 **Those who use this site will find information about Corvin Castle such as: contact details, buy tickets, prices, timetable, little history, legends, pictures about the castle and a contact form.** 
 
-(![Am I responsive screen-shot](/assets/images/am-i-responsive.png)
+![Am I responsive screen-shot](/assets/images/am-i-responsive.png)
 
  ## Features
  * Navigation 
