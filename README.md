@@ -62,4 +62,22 @@
     </a>*
 * Accessibility 
     * Iconfirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
-### (![Lighthouse score](/assets/images/lighthouse-score.png) 
+### ![Lighthouse score](/assets/images/lighthouse-score.png) 
+
+## Unfixed Bugs
+* *width="100%"* on iframe it fails when validate, but it works as i wish only when I use *%*
+
+## Deployment
+* The site was deployed to GitHub Pages. The steps to deploy are as follows:
+    * From Overview click on repository that need to be deployed
+    * Than click on Settings button and on the left side you can find Pages button
+    * From Source section drop-down menu, select *main* branch and  *root* from select folder than save
+    * Once saved, the page provide the link to the completed website
+* The live link can be found here [Corvin Castle](https://mitzusca.github.io/corvin-castle/)
+
+## Credits
+* Contents 
+    * The code for making social media links was taken from CI [Love Running](https://mitzusca.github.io/love-running/gallery.html) Project
+    * Pricing, opening time and contact details from official site in romanian [Castelul Corvinilor](http://www.castelulcorvinilor.ro/)
+## Media
+* Pictures and information about castle was taken from [Wikipedia](https://en.wikipedia.org/wiki/Corvin_Castle)
