@@ -316,10 +316,10 @@ strong {
     width: 20%;
 }
 .footer h2 {
-    color: rgb(245, 222, 179);
+    color: rgb(255, 253, 249);
 }
 .footer p {
-    color: rgb(245, 222, 179);
+    color: rgb(255, 253, 249);
 }
 /* Social network buttons */
 .social-networks{
@@ -335,7 +335,7 @@ strong {
     font-size: 200%;
     margin: 0;
     padding: 5px;
-    color: rgb(245, 222, 179);
+    color: rgb(255, 253, 249);
 }
 /* Buy tickets style */
 .buy {
@@ -523,6 +523,19 @@ strong {
         left: -10%;
     }
 }
+/* For verry-small screens sizes from 600px wide and down */
+@media screen and (max-width: 600px){
+    #main-image {
+        height: 300px;
+    }
+    #main-outer {
+        height: 300px;
+    }
+    #cover-text {
+        bottom: 170px;
+    }
+    font-size: 60%;
+}
 /* For verry-small screens sizes from 450px wide and down */
 @media screen and (max-width: 450px){
     #main-image {
@@ -534,12 +547,15 @@ strong {
     #gallery{
         column-count: 1;
     }
+    #menu a {
+        font-size: 90%;
+    }
     #cover-text {
-        font-size: 60%;
-        width: 150px;
+        font-size: 50%;
+        width: 100px;
         height: 40px;
         top: 40px;
-        left: 180px;
+        left: 170px;
     }
     .signup-form {
         width: 40%;
@@ -549,6 +565,21 @@ strong {
         width: 60%;
         left: 1px;
     }
+    #logo {
+        line-height: 0;
+        float: left;
+        font-size: 170%;
+    }
+    #logo img {
+        height: 30px;
+    }
+    .buy {
+        float: right;
+        margin-left: 35%;
+        padding: 0 0 ;
+        width: 30%;
+    }
+
 
 }
 
@@ -556,9 +587,6 @@ strong {
 @media screen and (max-width: 350px){
     h2, p {
         font-size: medium;
-    }
-    #logo img {
-        height: 30px;
     }
     #logo {
         font-size: 200%;
