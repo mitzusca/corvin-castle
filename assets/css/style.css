@@ -87,7 +87,7 @@ p {
 @keyframes main-zoom {
     from{transform: scale(1);
     }
-    to{transform: scale(1.2);
+    to{transform: scale(1.1);
 
     }
 }
@@ -233,21 +233,21 @@ h4 {
     padding-bottom: 20%;
 }
 /* map from main page */
-.mapouter {
-    margin: 10px;
-    text-align: center;
+.gmap-container {
+    position: relative;
+    overflow: hidden;
     width: 100%;
+    padding-top: 1%;
 }
 .gmap-canvas {
-    background: none!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
     height: 100%;
-    width:100%;
 }
-.gmap-canvas > p {
-    text-align: right;
-}
-
-
 /* about page text style */
 .about {
     text-align: center;
