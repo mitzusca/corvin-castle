@@ -10,29 +10,40 @@
     * Featured at the top of the page, the navigation shows the castle name in the left corner: CORVIN CASTLE links to the top of the page.
     * In the middle you can find a button named TICKETS, if clicked it opens another site in new tab where you can buy tickets to visit the castle.
     * The other navigation are to the right: Home, About Castle, Gallery and Contact wich link to different pages from the same website.
+    [Navigation bar](/assets/images/navigation.png)
 * Header
     * The header contains the city and country where the castle is located.
     * Here you can also see the front of the castle
+    [Header](/assets/images/header.png)
 * Video
     * In the middle of the page you will find a slideshow with images of the castle.
     * Video contain a relaxing background music.
     * The video also contains action buttons such as play, pause, volume and full screen.
+    [Video](/assets/images/video.png)
 * Map
     * Below on the page you will find a map with the Corvin Castle located, by clicking on it you can get directions to visit the castle.
+    [Map](/assets/images/map.png)
 * Footer
     * Here is the opening time.
     * Social media icons, which opens in a new tab.
     * Contact details such as email, phone number and address where the castle is located.
+    [Footer](/assets/images/footer.png)
 * About Castle 
     * Here you can also see the back side of the castle
     * Short history about castle, who build it and short history about John Hunyadi
     * The map of the castle
     * Three of famous legends of the castle
+    [Who build](/assets/images/who-build.png)
+    [Who was John](/assets/images/who-was.png)
+    [Masterpiece section](/assets/images/masterpiece.png)
+    [The three legends section](/assets/images/legends.png)
 * Gallery
     * Here you can find couple of pictures from the castle.
+    [Gallery](/assets/images/gallery.png)
 * Contact
     * Contact form is not linked yet to the owners of the castle
     * Right next to the form you can find the real contact details, prices and a button to buy tickets.
+    [Contact details page](/assets/images/contact.png)
 
 ## Testing
 
