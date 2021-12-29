@@ -76,7 +76,7 @@ p {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url('../images/main.jpg') no-repeat center center;
+    background: url('../images/main.webp') no-repeat center center;
     background-size: 100%;
      /* animates zoom effect on loading page  */
      animation-name: main-zoom;
@@ -307,7 +307,7 @@ strong {
     box-sizing: border-box;
 }
 #footer-details {
-    background-image: url("../images/hunedoara-city.jpg");
+    background-image: url("../images/hunedoara-city.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
