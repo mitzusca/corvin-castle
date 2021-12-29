@@ -533,8 +533,9 @@ strong {
     }
     #cover-text {
         bottom: 170px;
+        font-size: 60%;
     }
-    font-size: 60%;
+    
 }
 /* For verry-small screens sizes from 450px wide and down */
 @media screen and (max-width: 450px){
