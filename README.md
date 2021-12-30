@@ -19,10 +19,10 @@
     * In the middle of the page you will find a slideshow with images of the castle.
     * Video contain a relaxing background music.
     * The video also contains action buttons such as play, pause, volume and full screen.
-    ![Video](/assets/images/video.png)
+    * ![Video](/assets/images/video.png)
 * Map
     * Below on the page you will find a map with the Corvin Castle located, by clicking on it you can get directions to visit the castle.
-    ![Map](/assets/images/map.png)
+    * ![Map](/assets/images/map.png)
 * Footer
     * Here is the opening time.
     * Social media icons, which opens in a new tab.
@@ -31,15 +31,15 @@
 * About Castle 
     * Here you can also see the back side of the castle
     * Short history about castle, who build it and short history about John Hunyadi
+    * ![Who build](/assets/images/who-build.png)
+    * ![Who was John](/assets/images/who-was.png)
     * The map of the castle
-    * Three of famous legends of the castle
-    ![Who build](/assets/images/who-build.png)
-    ![Who was John](/assets/images/who-was.png)
-    ![Masterpiece section](/assets/images/masterpiece.png)
-    ![The three legends section](/assets/images/legends.png)
+    * ![Masterpiece section](/assets/images/masterpiece.png)
+    * Three of famous legends of the castle      
+    * ![The three legends section](/assets/images/legends.png)
 * Gallery
     * Here you can find couple of pictures from the castle.
-    ![Gallery](/assets/images/gallery.png)
+     ![Gallery](/assets/images/gallery.png)
 * Contact
     * Contact form is not linked yet to the owners of the castle
     * Right next to the form you can find the real contact details, prices and a button to buy tickets.
@@ -63,16 +63,16 @@
 
 ## Validator Testing
 * HTML 
-    * No errors were returned when passing through the official W3C validator
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmitzusca.github.io%2Fcorvin-castle%2F)
 * CSS 
-    * No errors were returned when passing through the official (Jigsaw) validator
+    * No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmitzusca.github.io%2Fcorvin-castle%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 *<a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!">
     </a>*
 * Accessibility 
-    * Iconfirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fmitzusca.github.io%2Fcorvin-castle%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 ### ![Lighthouse score](/assets/images/lighthouse-score.png) 
 
 ## Unfixed Bugs
